@@ -17,3 +17,11 @@
     on_click="goToPage('ending')"
   />
 </page>
+
+<fable>
+  <config font-family="Arial" />
+  <property name="contador" default="0" />
+  <page id="inicio">
+    <agent id="botao" x="100" y="100" text="Clique aqui" on_click="set(contador, $contador + 1)" />
+  </page>
+</fable>
