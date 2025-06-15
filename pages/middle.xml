@@ -17,3 +17,20 @@
     on_click="goToPage('ending')"
   />
 </page>
+
+<fable>
+  <config font-family="Arial" />
+  
+  <page id="inicio">
+    <agent id="opcao1" x="100" y="100" text="Opção 1" on_click="goToPage('pagina1')" />
+    <agent id="opcao2" x="300" y="100" text="Opção 2" on_click="goToPage('pagina2')" />
+  </page>
+  
+  <page id="pagina1">
+    <agent id="resultado1" x="150" y="150" text="Você escolheu a Opção 1!" />
+  </page>
+  
+  <page id="pagina2">
+    <agent id="resultado2" x="150" y="150" text="Você escolheu a Opção 2!" />
+  </page>
+</fable>
